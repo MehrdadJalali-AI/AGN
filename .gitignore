@@ -17,6 +17,11 @@ agn_cf/novelty.md
 agn_cf/figures/
 agn_cf/sources/
 
+# Earlier projects. This repository publishes only agn_cf.
+agn_birth/
+agn_triad/
+related_work/
+
 # Local archives of the experiment trees.
 _archive/
 
