@@ -1,0 +1,547 @@
+{
+  "summary": {
+    "GCN": {
+      "Cora": {
+        "B1": {
+          "n": 200,
+          "flips": 86,
+          "plausible_flips": 86,
+          "raw_flip_rate": 0.43,
+          "plausible_flip_rate": 0.43,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 0.602372625000001
+        },
+        "B2": {
+          "n": 200,
+          "flips": 70,
+          "plausible_flips": 70,
+          "raw_flip_rate": 0.35,
+          "plausible_flip_rate": 0.35,
+          "mean_edits": 0.0,
+          "mean_edges": 4.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 0.5627114159999991
+        },
+        "Tao-reimpl": {
+          "n": 200,
+          "flips": 200,
+          "plausible_flips": 0,
+          "raw_flip_rate": 1.0,
+          "plausible_flip_rate": 0.0,
+          "mean_edits": 1411.505,
+          "mean_edges": 1.0,
+          "mean_distance": 4.585518891811371,
+          "returned": 200,
+          "seconds": 2.228901166
+        },
+        "AGN-CF": {
+          "n": 200,
+          "flips": 151,
+          "plausible_flips": 151,
+          "raw_flip_rate": 0.755,
+          "plausible_flip_rate": 0.755,
+          "mean_edits": 1.855,
+          "mean_edges": 1.035,
+          "mean_distance": 0.6110368835926056,
+          "returned": 200,
+          "seconds": 132.73873225
+        },
+        "AGN-CF-noplaus": {
+          "n": 200,
+          "flips": 177,
+          "plausible_flips": 121,
+          "raw_flip_rate": 0.885,
+          "plausible_flip_rate": 0.605,
+          "mean_edits": 3.01,
+          "mean_edges": 1.03,
+          "mean_distance": 0.9844042319059372,
+          "returned": 200,
+          "seconds": 152.896646917
+        },
+        "random-anchor": {
+          "n": 200,
+          "flips": 104,
+          "plausible_flips": 104,
+          "raw_flip_rate": 0.52,
+          "plausible_flip_rate": 0.52,
+          "mean_edits": 1.5894736842105264,
+          "mean_edges": 1.394736842105263,
+          "mean_distance": 0.49588763023677623,
+          "returned": 190,
+          "seconds": 16.781677833000003
+        }
+      },
+      "CiteSeer": {
+        "B1": {
+          "n": 200,
+          "flips": 123,
+          "plausible_flips": 79,
+          "raw_flip_rate": 0.615,
+          "plausible_flip_rate": 0.395,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.0779027920000317
+        },
+        "B2": {
+          "n": 200,
+          "flips": 118,
+          "plausible_flips": 78,
+          "raw_flip_rate": 0.59,
+          "plausible_flip_rate": 0.39,
+          "mean_edits": 0.0,
+          "mean_edges": 2.56,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.0687795409999694
+        },
+        "Tao-reimpl": {
+          "n": 200,
+          "flips": 200,
+          "plausible_flips": 0,
+          "raw_flip_rate": 1.0,
+          "plausible_flip_rate": 0.0,
+          "mean_edits": 3684.485,
+          "mean_edges": 1.0,
+          "mean_distance": 6.461151721477509,
+          "returned": 200,
+          "seconds": 3.4002140829999803
+        },
+        "AGN-CF": {
+          "n": 200,
+          "flips": 167,
+          "plausible_flips": 167,
+          "raw_flip_rate": 0.835,
+          "plausible_flip_rate": 0.835,
+          "mean_edits": 0.935,
+          "mean_edges": 1.0,
+          "mean_distance": 0.3338335746526718,
+          "returned": 200,
+          "seconds": 137.383223375
+        },
+        "AGN-CF-noplaus": {
+          "n": 200,
+          "flips": 171,
+          "plausible_flips": 121,
+          "raw_flip_rate": 0.855,
+          "plausible_flip_rate": 0.605,
+          "mean_edits": 0.89,
+          "mean_edges": 1.0,
+          "mean_distance": 0.33367721140384676,
+          "returned": 200,
+          "seconds": 125.53939425000004
+        },
+        "random-anchor": {
+          "n": 200,
+          "flips": 140,
+          "plausible_flips": 140,
+          "raw_flip_rate": 0.7,
+          "plausible_flip_rate": 0.7,
+          "mean_edits": 1.1546391752577319,
+          "mean_edges": 1.1649484536082475,
+          "mean_distance": 0.4716820286721298,
+          "returned": 194,
+          "seconds": 18.38767637500007
+        }
+      },
+      "PubMed": {
+        "B1": {
+          "n": 200,
+          "flips": 90,
+          "plausible_flips": 90,
+          "raw_flip_rate": 0.45,
+          "plausible_flip_rate": 0.45,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.6601747500000101
+        },
+        "B2": {
+          "n": 200,
+          "flips": 61,
+          "plausible_flips": 61,
+          "raw_flip_rate": 0.305,
+          "plausible_flip_rate": 0.305,
+          "mean_edits": 0.0,
+          "mean_edges": 3.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.864828125000031
+        },
+        "Tao-reimpl": {
+          "n": 200,
+          "flips": 200,
+          "plausible_flips": 0,
+          "raw_flip_rate": 1.0,
+          "plausible_flip_rate": 0.0,
+          "mean_edits": 500.0,
+          "mean_edges": 1.0,
+          "mean_distance": 2.2513827300071716,
+          "returned": 200,
+          "seconds": 6.223694667000018
+        },
+        "AGN-CF": {
+          "n": 200,
+          "flips": 149,
+          "plausible_flips": 149,
+          "raw_flip_rate": 0.745,
+          "plausible_flip_rate": 0.745,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 161.61531654199996
+        },
+        "AGN-CF-noplaus": {
+          "n": 200,
+          "flips": 149,
+          "plausible_flips": 145,
+          "raw_flip_rate": 0.745,
+          "plausible_flip_rate": 0.725,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 163.724957667
+        },
+        "random-anchor": {
+          "n": 200,
+          "flips": 101,
+          "plausible_flips": 101,
+          "raw_flip_rate": 0.505,
+          "plausible_flip_rate": 0.505,
+          "mean_edits": 0.0,
+          "mean_edges": 1.2164948453608246,
+          "mean_distance": 0.0,
+          "returned": 194,
+          "seconds": 27.827503541000056
+        }
+      }
+    },
+    "GAT": {
+      "Cora": {
+        "B1": {
+          "n": 200,
+          "flips": 65,
+          "plausible_flips": 65,
+          "raw_flip_rate": 0.325,
+          "plausible_flip_rate": 0.325,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.119705665999959
+        },
+        "B2": {
+          "n": 200,
+          "flips": 82,
+          "plausible_flips": 82,
+          "raw_flip_rate": 0.41,
+          "plausible_flip_rate": 0.41,
+          "mean_edits": 0.0,
+          "mean_edges": 3.725,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.1116920409999693
+        },
+        "Tao-reimpl": {
+          "n": 200,
+          "flips": 200,
+          "plausible_flips": 0,
+          "raw_flip_rate": 1.0,
+          "plausible_flip_rate": 0.0,
+          "mean_edits": 1390.01,
+          "mean_edges": 1.0,
+          "mean_distance": 4.495758563280106,
+          "returned": 200,
+          "seconds": 6.128402249999908
+        },
+        "AGN-CF": {
+          "n": 200,
+          "flips": 115,
+          "plausible_flips": 115,
+          "raw_flip_rate": 0.575,
+          "plausible_flip_rate": 0.575,
+          "mean_edits": 0.995,
+          "mean_edges": 1.46,
+          "mean_distance": 0.26462899446487426,
+          "returned": 200,
+          "seconds": 260.90035687500006
+        },
+        "AGN-CF-noplaus": {
+          "n": 200,
+          "flips": 164,
+          "plausible_flips": 101,
+          "raw_flip_rate": 0.82,
+          "plausible_flip_rate": 0.505,
+          "mean_edits": 4.94,
+          "mean_edges": 1.265,
+          "mean_distance": 1.2115991669893265,
+          "returned": 200,
+          "seconds": 297.9093445000001
+        },
+        "random-anchor": {
+          "n": 200,
+          "flips": 80,
+          "plausible_flips": 80,
+          "raw_flip_rate": 0.4,
+          "plausible_flip_rate": 0.4,
+          "mean_edits": 0.6230366492146597,
+          "mean_edges": 2.06282722513089,
+          "mean_distance": 0.21414027788252107,
+          "returned": 191,
+          "seconds": 31.768794916999923
+        }
+      },
+      "CiteSeer": {
+        "B1": {
+          "n": 200,
+          "flips": 94,
+          "plausible_flips": 68,
+          "raw_flip_rate": 0.47,
+          "plausible_flip_rate": 0.34,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.7782663749999301
+        },
+        "B2": {
+          "n": 200,
+          "flips": 112,
+          "plausible_flips": 85,
+          "raw_flip_rate": 0.56,
+          "plausible_flip_rate": 0.425,
+          "mean_edits": 0.0,
+          "mean_edges": 2.16,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 1.848739291999891
+        },
+        "Tao-reimpl": {
+          "n": 200,
+          "flips": 200,
+          "plausible_flips": 0,
+          "raw_flip_rate": 1.0,
+          "plausible_flip_rate": 0.0,
+          "mean_edits": 3647.455,
+          "mean_edges": 1.0,
+          "mean_distance": 6.300980896949768,
+          "returned": 200,
+          "seconds": 6.043619249999892
+        },
+        "AGN-CF": {
+          "n": 200,
+          "flips": 151,
+          "plausible_flips": 151,
+          "raw_flip_rate": 0.755,
+          "plausible_flip_rate": 0.755,
+          "mean_edits": 1.0,
+          "mean_edges": 1.33,
+          "mean_distance": 0.36190290868282315,
+          "returned": 200,
+          "seconds": 249.96956791699995
+        },
+        "AGN-CF-noplaus": {
+          "n": 200,
+          "flips": 158,
+          "plausible_flips": 81,
+          "raw_flip_rate": 0.79,
+          "plausible_flip_rate": 0.405,
+          "mean_edits": 1.285,
+          "mean_edges": 1.285,
+          "mean_distance": 0.4374396526813507,
+          "returned": 200,
+          "seconds": 247.67377433299998
+        },
+        "random-anchor": {
+          "n": 200,
+          "flips": 116,
+          "plausible_flips": 116,
+          "raw_flip_rate": 0.58,
+          "plausible_flip_rate": 0.58,
+          "mean_edits": 1.145945945945946,
+          "mean_edges": 1.481081081081081,
+          "mean_distance": 0.38594694330885604,
+          "returned": 185,
+          "seconds": 33.80819112499967
+        }
+      },
+      "PubMed": {
+        "B1": {
+          "n": 200,
+          "flips": 90,
+          "plausible_flips": 90,
+          "raw_flip_rate": 0.45,
+          "plausible_flip_rate": 0.45,
+          "mean_edits": 0.0,
+          "mean_edges": 1.0,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 3.9616011250000156
+        },
+        "B2": {
+          "n": 200,
+          "flips": 99,
+          "plausible_flips": 99,
+          "raw_flip_rate": 0.495,
+          "plausible_flip_rate": 0.495,
+          "mean_edits": 0.0,
+          "mean_edges": 2.17,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 4.410279708999951
+        },
+        "Tao-reimpl": {
+          "n": 200,
+          "flips": 200,
+          "plausible_flips": 0,
+          "raw_flip_rate": 1.0,
+          "plausible_flip_rate": 0.0,
+          "mean_edits": 497.5,
+          "mean_edges": 1.0,
+          "mean_distance": 2.193182536736131,
+          "returned": 200,
+          "seconds": 15.361929332999807
+        },
+        "AGN-CF": {
+          "n": 200,
+          "flips": 116,
+          "plausible_flips": 116,
+          "raw_flip_rate": 0.58,
+          "plausible_flip_rate": 0.58,
+          "mean_edits": 0.0,
+          "mean_edges": 1.305,
+          "mean_distance": 0.0,
+          "returned": 200,
+          "seconds": 740.1117751670004
+        },
+        "AGN-CF-noplaus": {
+          "n": 200,
+          "flips": 128,
+          "plausible_flips": 116,
+          "raw_flip_rate": 0.64,
+          "plausible_flip_rate": 0.58,
+          "mean_edits": 1.425,
+          "mean_edges": 1.275,
+          "mean_distance": 0.2383576250076294,
+          "returned": 200,
+          "seconds": 717.351151417
+        },
+        "random-anchor": {
+          "n": 200,
+          "flips": 75,
+          "plausible_flips": 75,
+          "raw_flip_rate": 0.375,
+          "plausible_flip_rate": 0.375,
+          "mean_edits": 0.0,
+          "mean_edges": 1.634517766497462,
+          "mean_distance": 0.0,
+          "returned": 197,
+          "seconds": 96.38251645799983
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "dataset": "Cora",
+      "target": 1724,
+      "desired": 3,
+      "anchor": 7,
+      "edited_features": [
+        19,
+        698
+      ],
+      "edges": [
+        1724
+      ],
+      "edits": 2
+    },
+    {
+      "dataset": "Cora",
+      "target": 1743,
+      "desired": 1,
+      "anchor": 121,
+      "edited_features": [],
+      "edges": [
+        1743
+      ],
+      "edits": 0
+    },
+    {
+      "dataset": "Cora",
+      "target": 1752,
+      "desired": 1,
+      "anchor": 18,
+      "edited_features": [
+        19,
+        132,
+        168,
+        196,
+        395,
+        510,
+        581,
+        774,
+        829,
+        1203,
+        1255,
+        1262
+      ],
+      "edges": [
+        1752
+      ],
+      "edits": 12
+    },
+    {
+      "dataset": "Cora",
+      "target": 1755,
+      "desired": 1,
+      "anchor": 18,
+      "edited_features": [
+        132,
+        168,
+        196,
+        395,
+        510,
+        581,
+        829,
+        860,
+        1203,
+        1255,
+        1262
+      ],
+      "edges": [
+        1755
+      ],
+      "edits": 11
+    },
+    {
+      "dataset": "Cora",
+      "target": 1759,
+      "desired": 4,
+      "anchor": 43,
+      "edited_features": [
+        51,
+        1208,
+        1209,
+        1254
+      ],
+      "edges": [
+        1759
+      ],
+      "edits": 4
+    }
+  ],
+  "settings": {
+    "lambda": 0.2,
+    "steps": 16,
+    "budget": 32
+  }
+}

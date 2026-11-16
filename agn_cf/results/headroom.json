@@ -1,0 +1,182 @@
+{
+  "datasets": [
+    {
+      "dataset": "Cora",
+      "test_correct": 815,
+      "test_n": 1000,
+      "test_accuracy": 0.815,
+      "n_correct_test_pool": 815,
+      "binary_features": true,
+      "degree_min": 1,
+      "degree_max": 168,
+      "degree_median": 3.0,
+      "b2_neighbor_cap": 3,
+      "seconds": 7.882960707999999,
+      "baselines": {
+        "B1": {
+          "flips": 76,
+          "n": 200,
+          "flip_rate": 0.38,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B2": {
+          "flips": 60,
+          "n": 200,
+          "flip_rate": 0.3,
+          "edges_mean": 4.0,
+          "edges_min": 4,
+          "edges_max": 4,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B3": {
+          "flips": 14,
+          "n": 200,
+          "flip_rate": 0.07,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 1.2609545290470123,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B4": {
+          "flips": 15,
+          "n": 200,
+          "flip_rate": 0.075,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "CiteSeer",
+      "test_correct": 668,
+      "test_n": 1000,
+      "test_accuracy": 0.668,
+      "n_correct_test_pool": 668,
+      "binary_features": true,
+      "degree_min": 0,
+      "degree_max": 99,
+      "degree_median": 2.0,
+      "b2_neighbor_cap": 2,
+      "seconds": 11.399028917,
+      "baselines": {
+        "B1": {
+          "flips": 112,
+          "n": 200,
+          "flip_rate": 0.56,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B2": {
+          "flips": 108,
+          "n": 200,
+          "flip_rate": 0.54,
+          "edges_mean": 2.565,
+          "edges_min": 2,
+          "edges_max": 3,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B3": {
+          "flips": 5,
+          "n": 200,
+          "flip_rate": 0.025,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.185,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B4": {
+          "flips": 19,
+          "n": 200,
+          "flip_rate": 0.095,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PubMed",
+      "test_correct": 796,
+      "test_n": 1000,
+      "test_accuracy": 0.796,
+      "n_correct_test_pool": 796,
+      "binary_features": false,
+      "degree_min": 1,
+      "degree_max": 171,
+      "degree_median": 2.0,
+      "b2_neighbor_cap": 2,
+      "seconds": 17.262079125,
+      "baselines": {
+        "B1": {
+          "flips": 81,
+          "n": 200,
+          "flip_rate": 0.405,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B2": {
+          "flips": 55,
+          "n": 200,
+          "flip_rate": 0.275,
+          "edges_mean": 3.0,
+          "edges_min": 3,
+          "edges_max": 3,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B3": {
+          "flips": 118,
+          "n": 200,
+          "flip_rate": 0.59,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.211347142085433,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        },
+        "B4": {
+          "flips": 31,
+          "n": 200,
+          "flip_rate": 0.155,
+          "edges_mean": 1.0,
+          "edges_min": 1,
+          "edges_max": 1,
+          "mean_nearest_l2": 0.0,
+          "degree_in_range": 200,
+          "degree_in_range_rate": 1.0
+        }
+      }
+    }
+  ],
+  "seconds_total": 36.550282125
+}

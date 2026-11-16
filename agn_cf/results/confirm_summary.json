@@ -1,0 +1,450 @@
+{
+  "GCN": {
+    "Cora": {
+      "B1": {
+        "n": 200,
+        "flips": 71,
+        "plausible_flips": 71,
+        "raw_flip_rate": 0.355,
+        "plausible_flip_rate": 0.355,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 0.6380892500000002
+      },
+      "B2": {
+        "n": 200,
+        "flips": 50,
+        "plausible_flips": 50,
+        "raw_flip_rate": 0.25,
+        "plausible_flip_rate": 0.25,
+        "mean_edits": 0.0,
+        "mean_edges": 4.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 0.6410302079999965
+      },
+      "Copy-best-of-10": {
+        "n": 200,
+        "flips": 97,
+        "plausible_flips": 97,
+        "raw_flip_rate": 0.485,
+        "plausible_flip_rate": 0.485,
+        "mean_edits": 0.0,
+        "mean_edges": 1.535,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 28.199432540999993
+      },
+      "Copy-best-of-10-noedges": {
+        "n": 200,
+        "flips": 92,
+        "plausible_flips": 92,
+        "raw_flip_rate": 0.46,
+        "plausible_flip_rate": 0.46,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 4.624950249999998
+      },
+      "constrained-attack": {
+        "n": 200,
+        "flips": 94,
+        "plausible_flips": 94,
+        "raw_flip_rate": 0.47,
+        "plausible_flip_rate": 0.47,
+        "mean_edits": 3.205,
+        "mean_edges": 1.0,
+        "mean_distance": 1.2913136649131776,
+        "returned": 200,
+        "seconds": 137.88534162499997
+      },
+      "AGN-CF": {
+        "n": 200,
+        "flips": 148,
+        "plausible_flips": 148,
+        "raw_flip_rate": 0.74,
+        "plausible_flip_rate": 0.74,
+        "mean_edits": 2.2,
+        "mean_edges": 1.035,
+        "mean_distance": 0.7103936475515366,
+        "returned": 200,
+        "seconds": 162.062869959
+      }
+    },
+    "CiteSeer": {
+      "B1": {
+        "n": 200,
+        "flips": 117,
+        "plausible_flips": 77,
+        "raw_flip_rate": 0.585,
+        "plausible_flip_rate": 0.385,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 1.1554112080000323
+      },
+      "B2": {
+        "n": 200,
+        "flips": 114,
+        "plausible_flips": 79,
+        "raw_flip_rate": 0.57,
+        "plausible_flip_rate": 0.395,
+        "mean_edits": 0.0,
+        "mean_edges": 2.515,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 1.10355183300004
+      },
+      "Copy-best-of-10": {
+        "n": 200,
+        "flips": 137,
+        "plausible_flips": 95,
+        "raw_flip_rate": 0.685,
+        "plausible_flip_rate": 0.475,
+        "mean_edits": 0.0,
+        "mean_edges": 1.2,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 12.150351250000028
+      },
+      "Copy-best-of-10-noedges": {
+        "n": 200,
+        "flips": 137,
+        "plausible_flips": 95,
+        "raw_flip_rate": 0.685,
+        "plausible_flip_rate": 0.475,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 4.639717958999995
+      },
+      "constrained-attack": {
+        "n": 200,
+        "flips": 123,
+        "plausible_flips": 123,
+        "raw_flip_rate": 0.615,
+        "plausible_flip_rate": 0.615,
+        "mean_edits": 2.985,
+        "mean_edges": 1.0,
+        "mean_distance": 1.261041830778122,
+        "returned": 200,
+        "seconds": 178.07458558300004
+      },
+      "AGN-CF": {
+        "n": 200,
+        "flips": 171,
+        "plausible_flips": 171,
+        "raw_flip_rate": 0.855,
+        "plausible_flip_rate": 0.855,
+        "mean_edits": 1.255,
+        "mean_edges": 1.0,
+        "mean_distance": 0.4591431057453155,
+        "returned": 200,
+        "seconds": 147.16915883399997
+      }
+    },
+    "PubMed": {
+      "B1": {
+        "n": 200,
+        "flips": 93,
+        "plausible_flips": 93,
+        "raw_flip_rate": 0.465,
+        "plausible_flip_rate": 0.465,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 1.7805455000000165
+      },
+      "B2": {
+        "n": 200,
+        "flips": 64,
+        "plausible_flips": 64,
+        "raw_flip_rate": 0.32,
+        "plausible_flip_rate": 0.32,
+        "mean_edits": 0.0,
+        "mean_edges": 3.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 1.7694973339999933
+      },
+      "Copy-best-of-10": {
+        "n": 200,
+        "flips": 152,
+        "plausible_flips": 152,
+        "raw_flip_rate": 0.76,
+        "plausible_flip_rate": 0.76,
+        "mean_edits": 0.0,
+        "mean_edges": 1.36,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 33.76281683399998
+      },
+      "Copy-best-of-10-noedges": {
+        "n": 200,
+        "flips": 150,
+        "plausible_flips": 147,
+        "raw_flip_rate": 0.75,
+        "plausible_flip_rate": 0.735,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 6.308420791999993
+      },
+      "constrained-attack": {
+        "n": 200,
+        "flips": 164,
+        "plausible_flips": 164,
+        "raw_flip_rate": 0.82,
+        "plausible_flip_rate": 0.82,
+        "mean_edits": 16.64,
+        "mean_edges": 1.0,
+        "mean_distance": 0.22619131490588187,
+        "returned": 200,
+        "seconds": 68.83118945800004
+      },
+      "AGN-CF": {
+        "n": 200,
+        "flips": 152,
+        "plausible_flips": 152,
+        "raw_flip_rate": 0.76,
+        "plausible_flip_rate": 0.76,
+        "mean_edits": 0.0,
+        "mean_edges": 1.015,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 164.46000025
+      }
+    }
+  },
+  "GAT": {
+    "Cora": {
+      "B1": {
+        "n": 200,
+        "flips": 59,
+        "plausible_flips": 59,
+        "raw_flip_rate": 0.295,
+        "plausible_flip_rate": 0.295,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 0.919252791999952
+      },
+      "B2": {
+        "n": 200,
+        "flips": 80,
+        "plausible_flips": 80,
+        "raw_flip_rate": 0.4,
+        "plausible_flip_rate": 0.4,
+        "mean_edits": 0.0,
+        "mean_edges": 3.685,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 0.9038827499999798
+      },
+      "Copy-best-of-10": {
+        "n": 200,
+        "flips": 99,
+        "plausible_flips": 99,
+        "raw_flip_rate": 0.495,
+        "plausible_flip_rate": 0.495,
+        "mean_edits": 0.0,
+        "mean_edges": 2.125,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 35.87024000000008
+      },
+      "Copy-best-of-10-noedges": {
+        "n": 200,
+        "flips": 86,
+        "plausible_flips": 86,
+        "raw_flip_rate": 0.43,
+        "plausible_flip_rate": 0.43,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 5.93539629199995
+      },
+      "constrained-attack": {
+        "n": 200,
+        "flips": 85,
+        "plausible_flips": 85,
+        "raw_flip_rate": 0.425,
+        "plausible_flip_rate": 0.425,
+        "mean_edits": 2.665,
+        "mean_edges": 1.0,
+        "mean_distance": 1.341817142367363,
+        "returned": 200,
+        "seconds": 228.57370204099993
+      },
+      "AGN-CF": {
+        "n": 200,
+        "flips": 121,
+        "plausible_flips": 121,
+        "raw_flip_rate": 0.605,
+        "plausible_flip_rate": 0.605,
+        "mean_edits": 1.05,
+        "mean_edges": 1.465,
+        "mean_distance": 0.317184693813324,
+        "returned": 200,
+        "seconds": 250.40743537499998
+      }
+    },
+    "CiteSeer": {
+      "B1": {
+        "n": 200,
+        "flips": 102,
+        "plausible_flips": 71,
+        "raw_flip_rate": 0.51,
+        "plausible_flip_rate": 0.355,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 1.3915039580001576
+      },
+      "B2": {
+        "n": 200,
+        "flips": 118,
+        "plausible_flips": 84,
+        "raw_flip_rate": 0.59,
+        "plausible_flip_rate": 0.42,
+        "mean_edits": 0.0,
+        "mean_edges": 2.21,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 1.3817451249999522
+      },
+      "Copy-best-of-10": {
+        "n": 200,
+        "flips": 128,
+        "plausible_flips": 90,
+        "raw_flip_rate": 0.64,
+        "plausible_flip_rate": 0.45,
+        "mean_edits": 0.0,
+        "mean_edges": 1.47,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 17.19276049999985
+      },
+      "Copy-best-of-10-noedges": {
+        "n": 200,
+        "flips": 121,
+        "plausible_flips": 83,
+        "raw_flip_rate": 0.605,
+        "plausible_flip_rate": 0.415,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 6.326323042000013
+      },
+      "constrained-attack": {
+        "n": 200,
+        "flips": 114,
+        "plausible_flips": 114,
+        "raw_flip_rate": 0.57,
+        "plausible_flip_rate": 0.57,
+        "mean_edits": 4.235,
+        "mean_edges": 1.0,
+        "mean_distance": 1.5280291640758514,
+        "returned": 200,
+        "seconds": 235.6371482090001
+      },
+      "AGN-CF": {
+        "n": 200,
+        "flips": 153,
+        "plausible_flips": 153,
+        "raw_flip_rate": 0.765,
+        "plausible_flip_rate": 0.765,
+        "mean_edits": 0.93,
+        "mean_edges": 1.3,
+        "mean_distance": 0.3278120857477188,
+        "returned": 200,
+        "seconds": 202.99033466700007
+      }
+    },
+    "PubMed": {
+      "B1": {
+        "n": 200,
+        "flips": 101,
+        "plausible_flips": 101,
+        "raw_flip_rate": 0.505,
+        "plausible_flip_rate": 0.505,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 3.86620695900001
+      },
+      "B2": {
+        "n": 200,
+        "flips": 109,
+        "plausible_flips": 109,
+        "raw_flip_rate": 0.545,
+        "plausible_flip_rate": 0.545,
+        "mean_edits": 0.0,
+        "mean_edges": 2.23,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 5.036548584000002
+      },
+      "Copy-best-of-10": {
+        "n": 200,
+        "flips": 124,
+        "plausible_flips": 124,
+        "raw_flip_rate": 0.62,
+        "plausible_flip_rate": 0.62,
+        "mean_edits": 0.0,
+        "mean_edges": 1.4,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 90.02152708299991
+      },
+      "Copy-best-of-10-noedges": {
+        "n": 200,
+        "flips": 111,
+        "plausible_flips": 111,
+        "raw_flip_rate": 0.555,
+        "plausible_flip_rate": 0.555,
+        "mean_edits": 0.0,
+        "mean_edges": 1.0,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 18.02344075000019
+      },
+      "constrained-attack": {
+        "n": 200,
+        "flips": 164,
+        "plausible_flips": 164,
+        "raw_flip_rate": 0.82,
+        "plausible_flip_rate": 0.82,
+        "mean_edits": 15.52,
+        "mean_edges": 1.0,
+        "mean_distance": 0.211795591711998,
+        "returned": 200,
+        "seconds": 153.9196985829999
+      },
+      "AGN-CF": {
+        "n": 200,
+        "flips": 124,
+        "plausible_flips": 124,
+        "raw_flip_rate": 0.62,
+        "plausible_flip_rate": 0.62,
+        "mean_edits": 0.0,
+        "mean_edges": 1.3,
+        "mean_distance": 0.0,
+        "returned": 200,
+        "seconds": 589.01501525
+      }
+    }
+  }
+}

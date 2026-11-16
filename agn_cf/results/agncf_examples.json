@@ -1,0 +1,90 @@
+[
+  {
+    "dataset": "Cora",
+    "target": 1724,
+    "desired": 3,
+    "anchor": 7,
+    "edited_features": [
+      19,
+      698
+    ],
+    "edges": [
+      1724
+    ],
+    "edits": 2
+  },
+  {
+    "dataset": "Cora",
+    "target": 1743,
+    "desired": 1,
+    "anchor": 121,
+    "edited_features": [],
+    "edges": [
+      1743
+    ],
+    "edits": 0
+  },
+  {
+    "dataset": "Cora",
+    "target": 1752,
+    "desired": 1,
+    "anchor": 18,
+    "edited_features": [
+      19,
+      132,
+      168,
+      196,
+      395,
+      510,
+      581,
+      774,
+      829,
+      1203,
+      1255,
+      1262
+    ],
+    "edges": [
+      1752
+    ],
+    "edits": 12
+  },
+  {
+    "dataset": "Cora",
+    "target": 1755,
+    "desired": 1,
+    "anchor": 18,
+    "edited_features": [
+      132,
+      168,
+      196,
+      395,
+      510,
+      581,
+      829,
+      860,
+      1203,
+      1255,
+      1262
+    ],
+    "edges": [
+      1755
+    ],
+    "edits": 11
+  },
+  {
+    "dataset": "Cora",
+    "target": 1759,
+    "desired": 4,
+    "anchor": 43,
+    "edited_features": [
+      51,
+      1208,
+      1209,
+      1254
+    ],
+    "edges": [
+      1759
+    ],
+    "edits": 4
+  }
+]

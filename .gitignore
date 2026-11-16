@@ -1,0 +1,28 @@
+.DS_Store
+**/.venv/
+**/__pycache__/
+**/*.pyc
+
+# Downloaded datasets and regenerable caches.
+agn_cf/data/
+agn_birth/data/
+agn_triad/data/
+agn_birth/results/cache/
+agn_triad/results/cache/
+
+# Manuscript and files used only to build it.
+agn_cf/manuscript/
+agn_cf/references.bib
+agn_cf/novelty.md
+agn_cf/figures/
+agn_cf/sources/
+
+# Local archives of the experiment trees.
+_archive/
+
+# Local drafting prompts.
+CURSOR_PROMPT.md
+CURSOR_PROMPT_TRIAD.md
+CODEX_RELATED_WORK_PROMPT.md
+agn_birth/CURSOR_PROMPT.md
+agn_triad/CURSOR_PROMPT.md

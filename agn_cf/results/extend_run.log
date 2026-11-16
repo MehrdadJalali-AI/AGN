@@ -1,0 +1,227 @@
+2026-11-16 12:14:10 tune start
+2026-11-16 12:14:11 GCN epoch 1 loss=2.3882
+2026-11-16 12:14:13 GCN epoch 50 loss=1.9592
+2026-11-16 12:14:14 GCN epoch 100 loss=1.9346
+2026-11-16 12:14:16 GCN epoch 150 loss=1.9309
+2026-11-16 12:14:17 GCN epoch 200 loss=1.9302
+2026-11-16 12:14:17 Amazon-Photo GCN test accuracy 417/1530 train 6.6s
+2026-11-16 12:14:17 local-logit check GCN max abs 0.0
+2026-11-16 12:14:17 nearest-neighbour rows 0/7650
+2026-11-16 12:14:17 nearest-neighbour rows 2560/7650
+2026-11-16 12:14:17 nearest-neighbour rows 5120/7650
+2026-11-16 12:14:17 Amazon-Photo plausibility l2_p95=15.968719482421875 active=[47.0, 682.0] degree=[0, 1434] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:14:52 tune lr=0.01: plausible 0/100 raw 0/100 edits=0.0 (binary editor, learning rate unused)
+2026-11-16 12:14:52 tune lr=0.05: plausible 0/100 raw 0/100 edits=0.0 (binary editor, learning rate unused)
+2026-11-16 12:14:52 tune lr=0.1: plausible 0/100 raw 0/100 edits=0.0 (binary editor, learning rate unused)
+2026-11-16 12:14:52 selected continuous_lr=0.01
+2026-11-16 12:14:52 final preparing, continuous_lr=0.01
+2026-11-16 12:14:52 GCN epoch 1 loss=2.3471
+2026-11-16 12:14:54 GCN epoch 50 loss=1.6363
+2026-11-16 12:14:57 GCN epoch 100 loss=1.2329
+2026-11-16 12:14:59 GCN epoch 150 loss=1.0806
+2026-11-16 12:15:01 GCN epoch 200 loss=1.0126
+2026-11-16 12:15:01 Amazon-Computers GCN test accuracy 1897/2750 train 9.5s
+2026-11-16 12:15:01 local-logit check GCN max abs 1.9073486328125e-06
+2026-11-16 12:15:01 nearest-neighbour rows 0/13752
+2026-11-16 12:15:01 nearest-neighbour rows 2560/13752
+2026-11-16 12:15:01 nearest-neighbour rows 5120/13752
+2026-11-16 12:15:01 nearest-neighbour rows 7680/13752
+2026-11-16 12:15:01 nearest-neighbour rows 10240/13752
+2026-11-16 12:15:01 nearest-neighbour rows 12800/13752
+2026-11-16 12:15:02 Amazon-Computers plausibility l2_p95=16.278820037841797 active=[44.0, 684.4499999999989] degree=[0, 2992] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:15:02 GAT epoch 1 loss=6.2862
+2026-11-16 12:15:11 GAT epoch 50 loss=1.0488
+2026-11-16 12:15:21 GAT epoch 100 loss=0.6974
+2026-11-16 12:15:31 GAT epoch 150 loss=0.6184
+2026-11-16 12:15:41 GAT epoch 200 loss=0.5728
+2026-11-16 12:15:41 Amazon-Computers GAT test accuracy 2443/2750 train 39.6s
+2026-11-16 12:15:41 local-logit check GAT max abs 1.430511474609375e-06
+2026-11-16 12:15:41 Amazon-Computers plausibility l2_p95=16.278820037841797 active=[44.0, 684.4499999999989] degree=[0, 2992] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:15:42 SAGE epoch 1 loss=2.3606
+2026-11-16 12:15:58 SAGE epoch 50 loss=1.0344
+2026-11-16 12:16:15 SAGE epoch 100 loss=0.5750
+2026-11-16 12:16:40 SAGE epoch 150 loss=0.4420
+2026-11-16 12:16:59 SAGE epoch 200 loss=0.4067
+2026-11-16 12:17:00 Amazon-Computers SAGE test accuracy 2475/2750 train 78.0s
+2026-11-16 12:17:01 local-logit check SAGE max abs 3.814697265625e-06
+2026-11-16 12:17:01 Amazon-Computers plausibility l2_p95=16.278820037841797 active=[44.0, 684.4499999999989] degree=[0, 2992] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:17:01 GCN epoch 1 loss=2.3882
+2026-11-16 12:17:02 GCN epoch 50 loss=1.9592
+2026-11-16 12:17:04 GCN epoch 100 loss=1.9346
+2026-11-16 12:17:05 GCN epoch 150 loss=1.9309
+2026-11-16 12:17:06 GCN epoch 200 loss=1.9302
+2026-11-16 12:17:06 Amazon-Photo GCN test accuracy 417/1530 train 5.1s
+2026-11-16 12:17:06 local-logit check GCN max abs 0.0
+2026-11-16 12:17:06 Amazon-Photo plausibility l2_p95=15.968719482421875 active=[47.0, 682.0] degree=[0, 1434] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:17:06 GAT epoch 1 loss=3.2320
+2026-11-16 12:17:12 GAT epoch 50 loss=0.5292
+2026-11-16 12:17:17 GAT epoch 100 loss=0.4295
+2026-11-16 12:17:23 GAT epoch 150 loss=0.3903
+2026-11-16 12:17:28 GAT epoch 200 loss=0.3609
+2026-11-16 12:17:28 Amazon-Photo GAT test accuracy 1446/1530 train 21.9s
+2026-11-16 12:17:28 local-logit check GAT max abs 4.76837158203125e-07
+2026-11-16 12:17:28 Amazon-Photo plausibility l2_p95=15.968719482421875 active=[47.0, 682.0] degree=[0, 1434] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:17:28 SAGE epoch 1 loss=2.0998
+2026-11-16 12:17:36 SAGE epoch 50 loss=1.0613
+2026-11-16 12:17:44 SAGE epoch 100 loss=0.5297
+2026-11-16 12:17:52 SAGE epoch 150 loss=0.4162
+2026-11-16 12:18:00 SAGE epoch 200 loss=0.3641
+2026-11-16 12:18:00 Amazon-Photo SAGE test accuracy 1427/1530 train 31.5s
+2026-11-16 12:18:00 local-logit check SAGE max abs 4.76837158203125e-07
+2026-11-16 12:18:00 Amazon-Photo plausibility l2_p95=15.968719482421875 active=[47.0, 682.0] degree=[0, 1434] median=22.0 extra_cap=21 binary=True
+2026-11-16 12:18:00 GCN epoch 1 loss=2.7144
+2026-11-16 12:18:03 GCN epoch 50 loss=0.2621
+2026-11-16 12:18:06 GCN epoch 100 loss=0.2109
+2026-11-16 12:18:10 GCN epoch 150 loss=0.1921
+2026-11-16 12:18:14 GCN epoch 200 loss=0.1775
+2026-11-16 12:18:14 Coauthor-CS GCN test accuracy 3417/3666 train 13.4s
+2026-11-16 12:18:14 local-logit check GCN max abs 4.76837158203125e-07
+2026-11-16 12:18:14 nearest-neighbour rows 0/18333
+2026-11-16 12:18:14 nearest-neighbour rows 2560/18333
+2026-11-16 12:18:15 nearest-neighbour rows 5120/18333
+2026-11-16 12:18:15 nearest-neighbour rows 7680/18333
+2026-11-16 12:18:16 nearest-neighbour rows 10240/18333
+2026-11-16 12:18:17 nearest-neighbour rows 12800/18333
+2026-11-16 12:18:17 nearest-neighbour rows 15360/18333
+2026-11-16 12:18:18 nearest-neighbour rows 17920/18333
+2026-11-16 12:18:18 Coauthor-CS plausibility l2_p95=11.313708305358887 active=[14.0, 159.0] degree=[1, 136] median=6.0 extra_cap=5 binary=True
+2026-11-16 12:18:19 GAT epoch 1 loss=2.7441
+2026-11-16 12:18:50 GAT epoch 50 loss=0.5510
+2026-11-16 12:19:14 GAT epoch 100 loss=0.5018
+2026-11-16 12:19:40 GAT epoch 150 loss=0.4862
+2026-11-16 12:20:07 GAT epoch 200 loss=0.4661
+2026-11-16 12:20:07 Coauthor-CS GAT test accuracy 3401/3666 train 108.9s
+2026-11-16 12:20:08 local-logit check GAT max abs 2.384185791015625e-07
+2026-11-16 12:20:08 Coauthor-CS plausibility l2_p95=11.313708305358887 active=[14.0, 159.0] degree=[1, 136] median=6.0 extra_cap=5 binary=True
+2026-11-16 12:20:12 SAGE epoch 1 loss=2.7144
+2026-11-16 12:20:55 SAGE epoch 50 loss=0.0477
+2026-11-16 12:22:18 SAGE epoch 100 loss=0.0289
+2026-11-16 12:23:32 SAGE epoch 150 loss=0.0238
+2026-11-16 12:24:49 SAGE epoch 200 loss=0.0263
+2026-11-16 12:24:50 Coauthor-CS SAGE test accuracy 3440/3666 train 281.9s
+2026-11-16 12:24:52 local-logit check SAGE max abs 7.152557373046875e-07
+2026-11-16 12:24:52 Coauthor-CS plausibility l2_p95=11.313708305358887 active=[14.0, 159.0] degree=[1, 136] median=6.0 extra_cap=5 binary=True
+2026-11-16 12:24:53 GCN epoch 1 loss=1.6243
+2026-11-16 12:25:02 GCN epoch 50 loss=0.1320
+2026-11-16 12:25:09 GCN epoch 100 loss=0.1155
+2026-11-16 12:25:16 GCN epoch 150 loss=0.1045
+2026-11-16 12:25:24 GCN epoch 200 loss=0.0979
+2026-11-16 12:25:24 Coauthor-Physics GCN test accuracy 6639/6898 train 32.1s
+2026-11-16 12:25:25 local-logit check GCN max abs 4.76837158203125e-07
+2026-11-16 12:25:25 nearest-neighbour rows 0/34493
+2026-11-16 12:25:26 nearest-neighbour rows 2560/34493
+2026-11-16 12:25:28 nearest-neighbour rows 5120/34493
+2026-11-16 12:25:29 nearest-neighbour rows 7680/34493
+2026-11-16 12:25:30 nearest-neighbour rows 10240/34493
+2026-11-16 12:25:32 nearest-neighbour rows 12800/34493
+2026-11-16 12:25:33 nearest-neighbour rows 15360/34493
+2026-11-16 12:25:34 nearest-neighbour rows 17920/34493
+2026-11-16 12:25:35 nearest-neighbour rows 20480/34493
+2026-11-16 12:25:36 nearest-neighbour rows 23040/34493
+2026-11-16 12:25:37 nearest-neighbour rows 25600/34493
+2026-11-16 12:25:39 nearest-neighbour rows 28160/34493
+2026-11-16 12:25:40 nearest-neighbour rows 30720/34493
+2026-11-16 12:25:41 nearest-neighbour rows 33280/34493
+2026-11-16 12:25:43 Coauthor-Physics plausibility l2_p95=7.416198253631592 active=[10.0, 77.0] degree=[1, 382] median=10.0 extra_cap=9 binary=True
+2026-11-16 12:25:46 GAT epoch 1 loss=1.6006
+2026-11-16 12:26:46 GAT epoch 50 loss=0.2529
+2026-11-16 12:27:43 GAT epoch 100 loss=0.2346
+2026-11-16 12:28:40 GAT epoch 150 loss=0.2280
+2026-11-16 12:29:36 GAT epoch 200 loss=0.2242
+2026-11-16 12:29:36 Coauthor-Physics GAT test accuracy 6618/6898 train 232.1s
+2026-11-16 12:29:37 local-logit check GAT max abs 9.5367431640625e-07
+2026-11-16 12:29:37 Coauthor-Physics plausibility l2_p95=7.416198253631592 active=[10.0, 77.0] degree=[1, 382] median=10.0 extra_cap=9 binary=True
+2026-11-16 12:29:49 SAGE epoch 1 loss=1.6683
+2026-11-16 12:38:06 SAGE epoch 50 loss=0.0528
+2026-11-16 12:46:48 SAGE epoch 100 loss=0.0260
+2026-11-16 12:55:35 SAGE epoch 150 loss=0.0219
+2026-11-16 13:04:13 SAGE epoch 200 loss=0.0183
+2026-11-16 13:04:23 Coauthor-Physics SAGE test accuracy 6673/6898 train 2085.4s
+2026-11-16 13:04:34 local-logit check SAGE max abs 1.430511474609375e-06
+2026-11-16 13:04:34 Coauthor-Physics plausibility l2_p95=7.416198253631592 active=[10.0, 77.0] degree=[1, 382] median=10.0 extra_cap=9 binary=True
+2026-11-16 13:04:34 targets GCN Amazon-Computers: 200
+2026-11-16 13:04:34 targets GCN Amazon-Photo: 200
+2026-11-16 13:04:34 targets GCN Coauthor-CS: 200
+2026-11-16 13:04:34 targets GCN Coauthor-Physics: 200
+2026-11-16 13:04:34 targets GAT Amazon-Computers: 200
+2026-11-16 13:04:34 targets GAT Amazon-Photo: 200
+2026-11-16 13:04:34 targets GAT Coauthor-CS: 200
+2026-11-16 13:04:34 targets GAT Coauthor-Physics: 200
+2026-11-16 13:04:34 targets SAGE Amazon-Computers: 200
+2026-11-16 13:04:34 targets SAGE Amazon-Photo: 200
+2026-11-16 13:04:34 targets SAGE Coauthor-CS: 200
+2026-11-16 13:04:34 targets SAGE Coauthor-Physics: 200
+2026-11-16 13:04:34 extend lock written
+2026-11-16 13:04:35 extend GCN Amazon-Computers B1: plausible 19/200 raw 21/200 edits=0.0 outlier=0.785 (0.4s)
+2026-11-16 13:04:35 extend GCN Amazon-Computers B2: plausible 4/200 raw 5/200 edits=0.0 outlier=0.785 (0.5s)
+2026-11-16 13:19:14 extend GCN Amazon-Computers Copy-best-of-10: plausible 31/200 raw 33/200 edits=0.0 outlier=0.79 (878.0s)
+2026-11-16 13:19:17 extend GCN Amazon-Computers Copy-best-of-10-noedges: plausible 29/200 raw 31/200 edits=0.0 outlier=0.795 (3.1s)
+2026-11-16 13:20:55 extend GCN Amazon-Computers constrained-attack: plausible 40/200 raw 40/200 edits=28.097560975609756 outlier=1.0 (98.1s)
+2026-11-16 13:46:09 extend GCN Amazon-Computers AGN: plausible 34/200 raw 34/200 edits=0.005 outlier=1.0 (1514.7s)
+2026-11-16 13:46:10 extend GAT Amazon-Computers B1: plausible 8/200 raw 8/200 edits=0.0 outlier=0.995 (0.4s)
+2026-11-16 13:46:10 extend GAT Amazon-Computers B2: plausible 11/200 raw 11/200 edits=0.0 outlier=0.995 (0.5s)
+2026-11-16 13:47:55 extend GAT Amazon-Computers Copy-best-of-10: plausible 14/200 raw 14/200 edits=0.0 outlier=0.985 (104.6s)
+2026-11-16 13:47:58 extend GAT Amazon-Computers Copy-best-of-10-noedges: plausible 11/200 raw 11/200 edits=0.0 outlier=0.985 (3.2s)
+2026-11-16 13:49:33 extend GAT Amazon-Computers constrained-attack: plausible 13/200 raw 13/200 edits=30.68 outlier=0.995 (94.3s)
+2026-11-16 13:53:06 extend GAT Amazon-Computers AGN: plausible 14/200 raw 14/200 edits=0.0 outlier=0.735 (213.5s)
+2026-11-16 13:53:06 extend SAGE Amazon-Computers B1: plausible 7/200 raw 7/200 edits=0.0 outlier=0.34 (0.4s)
+2026-11-16 13:53:07 extend SAGE Amazon-Computers B2: plausible 14/200 raw 14/200 edits=0.0 outlier=0.34 (0.4s)
+2026-11-16 13:54:38 extend SAGE Amazon-Computers Copy-best-of-10: plausible 24/200 raw 24/200 edits=0.0 outlier=0.37 (91.1s)
+2026-11-16 13:54:41 extend SAGE Amazon-Computers Copy-best-of-10-noedges: plausible 11/200 raw 11/200 edits=0.0 outlier=0.345 (3.0s)
+2026-11-16 13:56:11 extend SAGE Amazon-Computers constrained-attack: plausible 11/200 raw 11/200 edits=30.745 outlier=0.57 (89.9s)
+2026-11-16 13:59:28 extend SAGE Amazon-Computers AGN: plausible 24/200 raw 24/200 edits=0.0 outlier=0.57 (196.8s)
+2026-11-16 13:59:28 extend GCN Amazon-Photo B1: plausible 0/200 raw 0/200 edits=0.0 outlier=1.0 (0.2s)
+2026-11-16 13:59:28 extend GCN Amazon-Photo B2: plausible 0/200 raw 0/200 edits=0.0 outlier=1.0 (0.2s)
+2026-11-16 13:59:53 extend GCN Amazon-Photo Copy-best-of-10: plausible 0/200 raw 0/200 edits=0.0 outlier=1.0 (24.4s)
+2026-11-16 13:59:55 extend GCN Amazon-Photo Copy-best-of-10-noedges: plausible 0/200 raw 0/200 edits=0.0 outlier=1.0 (2.2s)
+2026-11-16 14:01:10 extend GCN Amazon-Photo constrained-attack: plausible 0/200 raw 0/200 edits=25.3 outlier=1.0 (75.4s)
+2026-11-16 14:02:01 extend GCN Amazon-Photo AGN: plausible 0/200 raw 0/200 edits=0.0 outlier=1.0 (51.0s)
+2026-11-16 14:02:01 extend GAT Amazon-Photo B1: plausible 3/200 raw 3/200 edits=0.0 outlier=0.79 (0.2s)
+2026-11-16 14:02:02 extend GAT Amazon-Photo B2: plausible 5/200 raw 5/200 edits=0.0 outlier=0.79 (0.3s)
+2026-11-16 14:05:31 extend GAT Amazon-Photo Copy-best-of-10: plausible 13/200 raw 13/200 edits=0.0 outlier=0.8 (205.6s)
+2026-11-16 14:05:33 extend GAT Amazon-Photo Copy-best-of-10-noedges: plausible 8/200 raw 8/200 edits=0.0 outlier=0.8 (2.2s)
+2026-11-16 14:06:49 extend GAT Amazon-Photo constrained-attack: plausible 11/200 raw 11/200 edits=31.52 outlier=0.98 (75.8s)
+2026-11-16 14:14:27 extend GAT Amazon-Photo AGN: plausible 13/200 raw 13/200 edits=0.0 outlier=0.535 (458.1s)
+2026-11-16 14:14:28 extend SAGE Amazon-Photo B1: plausible 9/200 raw 9/200 edits=0.0 outlier=1.0 (0.2s)
+2026-11-16 14:14:28 extend SAGE Amazon-Photo B2: plausible 10/200 raw 10/200 edits=0.0 outlier=1.0 (0.2s)
+2026-11-16 14:15:52 extend SAGE Amazon-Photo Copy-best-of-10: plausible 19/200 raw 19/200 edits=0.0 outlier=1.0 (83.8s)
+2026-11-16 14:15:54 extend SAGE Amazon-Photo Copy-best-of-10-noedges: plausible 10/200 raw 10/200 edits=0.0 outlier=1.0 (2.0s)
+2026-11-16 14:17:05 extend SAGE Amazon-Photo constrained-attack: plausible 12/200 raw 12/200 edits=30.56 outlier=1.0 (71.0s)
+2026-11-16 14:20:23 extend SAGE Amazon-Photo AGN: plausible 19/200 raw 19/200 edits=0.0 outlier=0.995 (198.3s)
+2026-11-16 14:20:26 extend GCN Coauthor-CS B1: plausible 27/200 raw 63/200 edits=0.0 outlier=0.0 (2.6s)
+2026-11-16 14:20:29 extend GCN Coauthor-CS B2: plausible 15/200 raw 28/200 edits=0.0 outlier=0.0 (2.7s)
+2026-11-16 14:21:25 extend GCN Coauthor-CS Copy-best-of-10: plausible 31/200 raw 89/200 edits=0.0 outlier=0.035 (56.5s)
+2026-11-16 14:21:46 extend GCN Coauthor-CS Copy-best-of-10-noedges: plausible 31/200 raw 89/200 edits=0.0 outlier=0.035 (20.7s)
+2026-11-16 14:34:21 extend GCN Coauthor-CS constrained-attack: plausible 37/200 raw 37/200 edits=16.86021505376344 outlier=0.0 (754.5s)
+2026-11-16 14:39:32 extend GCN Coauthor-CS AGN: plausible 70/200 raw 70/200 edits=0.06748466257668712 outlier=0.0 (311.7s)
+2026-11-16 14:39:35 extend GAT Coauthor-CS B1: plausible 16/200 raw 16/200 edits=0.0 outlier=0.0 (3.1s)
+2026-11-16 14:39:39 extend GAT Coauthor-CS B2: plausible 29/200 raw 29/200 edits=0.0 outlier=0.0 (3.1s)
+2026-11-16 14:40:14 extend GAT Coauthor-CS Copy-best-of-10: plausible 41/200 raw 41/200 edits=0.0 outlier=0.0 (35.5s)
+2026-11-16 14:40:37 extend GAT Coauthor-CS Copy-best-of-10-noedges: plausible 25/200 raw 25/200 edits=0.0 outlier=0.0 (22.9s)
+2026-11-16 14:50:51 extend GAT Coauthor-CS constrained-attack: plausible 33/200 raw 33/200 edits=29.2 outlier=0.0 (614.2s)
+2026-11-16 14:53:16 extend GAT Coauthor-CS AGN: plausible 64/200 raw 64/200 edits=2.305 outlier=0.0 (144.4s)
+2026-11-16 14:53:18 extend SAGE Coauthor-CS B1: plausible 8/200 raw 13/200 edits=0.0 outlier=0.07 (2.6s)
+2026-11-16 14:53:21 extend SAGE Coauthor-CS B2: plausible 9/200 raw 14/200 edits=0.0 outlier=0.07 (2.5s)
+2026-11-16 14:55:51 extend SAGE Coauthor-CS Copy-best-of-10: plausible 14/200 raw 22/200 edits=0.0 outlier=0.07 (150.0s)
+2026-11-16 14:56:15 extend SAGE Coauthor-CS Copy-best-of-10-noedges: plausible 8/200 raw 13/200 edits=0.0 outlier=0.07 (23.8s)
+2026-11-16 15:09:36 extend SAGE Coauthor-CS constrained-attack: plausible 9/200 raw 9/200 edits=28.094594594594593 outlier=0.0 (801.1s)
+2026-11-16 15:14:46 extend SAGE Coauthor-CS AGN: plausible 20/200 raw 20/200 edits=0.08 outlier=0.0 (310.0s)
+2026-11-16 15:14:54 extend GCN Coauthor-Physics B1: plausible 7/200 raw 59/200 edits=0.0 outlier=0.0 (5.9s)
+2026-11-16 15:14:59 extend GCN Coauthor-Physics B2: plausible 1/200 raw 8/200 edits=0.0 outlier=0.0 (5.7s)
+2026-11-16 15:16:41 extend GCN Coauthor-Physics Copy-best-of-10: plausible 8/200 raw 79/200 edits=0.0 outlier=0.0 (101.6s)
+2026-11-16 15:17:21 extend GCN Coauthor-Physics Copy-best-of-10-noedges: plausible 8/200 raw 79/200 edits=0.0 outlier=0.0 (39.8s)
+2026-11-16 15:42:52 extend GCN Coauthor-Physics constrained-attack: plausible 12/200 raw 12/200 edits=19.53125 outlier=0.0 (1531.1s)
+2026-11-16 15:55:56 extend GCN Coauthor-Physics AGN: plausible 45/200 raw 45/200 edits=0.4370860927152318 outlier=0.0 (784.3s)
+2026-11-16 15:56:02 extend GAT Coauthor-Physics B1: plausible 2/200 raw 3/200 edits=0.0 outlier=0.0 (6.0s)
+2026-11-16 15:56:08 extend GAT Coauthor-Physics B2: plausible 8/200 raw 9/200 edits=0.0 outlier=0.0 (5.6s)
+2026-11-16 15:57:32 extend GAT Coauthor-Physics Copy-best-of-10: plausible 21/200 raw 23/200 edits=0.0 outlier=0.0 (83.9s)
+2026-11-16 15:58:27 extend GAT Coauthor-Physics Copy-best-of-10-noedges: plausible 15/200 raw 16/200 edits=0.0 outlier=0.0 (54.6s)
+2026-11-16 16:20:23 extend GAT Coauthor-Physics constrained-attack: plausible 13/200 raw 13/200 edits=29.54 outlier=0.0 (1315.9s)
+2026-11-16 16:26:01 extend GAT Coauthor-Physics AGN: plausible 66/200 raw 66/200 edits=4.55 outlier=0.0 (338.6s)
+2026-11-16 16:26:07 extend SAGE Coauthor-Physics B1: plausible 3/200 raw 7/200 edits=0.0 outlier=0.0 (6.0s)
+2026-11-16 16:26:13 extend SAGE Coauthor-Physics B2: plausible 4/200 raw 10/200 edits=0.0 outlier=0.0 (5.6s)
+2026-11-16 16:31:58 extend SAGE Coauthor-Physics Copy-best-of-10: plausible 4/200 raw 14/200 edits=0.0 outlier=0.0 (344.7s)
+2026-11-16 16:32:50 extend SAGE Coauthor-Physics Copy-best-of-10-noedges: plausible 4/200 raw 13/200 edits=0.0 outlier=0.0 (52.4s)
+2026-11-16 16:57:53 extend SAGE Coauthor-Physics constrained-attack: plausible 5/200 raw 5/200 edits=19.33613445378151 outlier=0.0 (1502.8s)
+2026-11-16 17:11:13 extend SAGE Coauthor-Physics AGN: plausible 21/200 raw 21/200 edits=0.445 outlier=0.0 (800.3s)
+2026-11-16 17:11:13 verdict NO-GO

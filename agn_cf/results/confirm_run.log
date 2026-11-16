@@ -1,0 +1,59 @@
+2026-11-16 11:11:32 Cora GCN test accuracy 815/1000
+2026-11-16 11:11:32 Cora plausibility l2_p95=4.795831680297852 active=[5.0, 25.0] degree=[1, 168] median=3.0 extra_cap=2
+2026-11-16 11:11:43 confirm preparing
+2026-11-16 11:11:44 Cora GCN test accuracy 815/1000
+2026-11-16 11:11:44 Cora plausibility l2_p95=4.795831680297852 active=[5.0, 25.0] degree=[1, 168] median=3.0 extra_cap=2
+2026-11-16 11:11:49 Cora GAT test accuracy 805/1000
+2026-11-16 11:11:49 Cora plausibility l2_p95=4.795831680297852 active=[5.0, 25.0] degree=[1, 168] median=3.0 extra_cap=2
+2026-11-16 11:11:50 CiteSeer GCN test accuracy 668/1000
+2026-11-16 11:11:51 CiteSeer plausibility l2_p95=6.324555397033691 active=[22.0, 41.0] degree=[0, 99] median=2.0 extra_cap=1
+2026-11-16 11:12:01 CiteSeer GAT test accuracy 691/1000
+2026-11-16 11:12:01 CiteSeer plausibility l2_p95=6.324555397033691 active=[22.0, 41.0] degree=[0, 99] median=2.0 extra_cap=1
+2026-11-16 11:12:05 PubMed GCN test accuracy 796/1000
+2026-11-16 11:12:05 PubMed plausibility l2_p95=0.44109633564949036 active=[25.0, 76.0] degree=[1, 171] median=2.0 extra_cap=1
+2026-11-16 11:12:22 PubMed GAT test accuracy 769/1000
+2026-11-16 11:12:22 PubMed plausibility l2_p95=0.44109633564949036 active=[25.0, 76.0] degree=[1, 171] median=2.0 extra_cap=1
+2026-11-16 11:12:22 targets GCN Cora: 200 from pool, excluded headroom 200 final 200
+2026-11-16 11:12:22 targets GCN CiteSeer: 200 from pool, excluded headroom 200 final 200
+2026-11-16 11:12:22 targets GCN PubMed: 200 from pool, excluded headroom 200 final 200
+2026-11-16 11:12:22 targets GAT Cora: 200 from pool, excluded headroom 200 final 200
+2026-11-16 11:12:22 targets GAT CiteSeer: 200 from pool, excluded headroom 200 final 200
+2026-11-16 11:12:22 targets GAT PubMed: 200 from pool, excluded headroom 200 final 200
+2026-11-16 11:12:22 confirm lock written
+2026-11-16 11:12:23 confirm GCN Cora B1: plausible 71/200 raw 71/200 edits=0.0 edges=1.0 dist=0.0 (0.6s)
+2026-11-16 11:12:24 confirm GCN Cora B2: plausible 50/200 raw 50/200 edits=0.0 edges=4.0 dist=0.0 (0.6s)
+2026-11-16 11:12:52 confirm GCN Cora Copy-best-of-10: plausible 97/200 raw 97/200 edits=0.0 edges=1.535 dist=0.0 (28.2s)
+2026-11-16 11:12:57 confirm GCN Cora Copy-best-of-10-noedges: plausible 92/200 raw 92/200 edits=0.0 edges=1.0 dist=0.0 (4.6s)
+2026-11-16 11:15:14 confirm GCN Cora constrained-attack: plausible 94/200 raw 94/200 edits=3.205 edges=1.0 dist=1.2913136649131776 (137.9s)
+2026-11-16 11:17:57 confirm GCN Cora AGN-CF: plausible 148/200 raw 148/200 edits=2.2 edges=1.035 dist=0.7103936475515366 (162.1s)
+2026-11-16 11:17:58 confirm GCN CiteSeer B1: plausible 77/200 raw 117/200 edits=0.0 edges=1.0 dist=0.0 (1.2s)
+2026-11-16 11:17:59 confirm GCN CiteSeer B2: plausible 79/200 raw 114/200 edits=0.0 edges=2.515 dist=0.0 (1.1s)
+2026-11-16 11:18:11 confirm GCN CiteSeer Copy-best-of-10: plausible 95/200 raw 137/200 edits=0.0 edges=1.2 dist=0.0 (12.2s)
+2026-11-16 11:18:16 confirm GCN CiteSeer Copy-best-of-10-noedges: plausible 95/200 raw 137/200 edits=0.0 edges=1.0 dist=0.0 (4.6s)
+2026-11-16 11:21:14 confirm GCN CiteSeer constrained-attack: plausible 123/200 raw 123/200 edits=2.985 edges=1.0 dist=1.261041830778122 (178.1s)
+2026-11-16 11:23:41 confirm GCN CiteSeer AGN-CF: plausible 171/200 raw 171/200 edits=1.255 edges=1.0 dist=0.4591431057453155 (147.2s)
+2026-11-16 11:23:43 confirm GCN PubMed B1: plausible 93/200 raw 93/200 edits=0.0 edges=1.0 dist=0.0 (1.8s)
+2026-11-16 11:23:44 confirm GCN PubMed B2: plausible 64/200 raw 64/200 edits=0.0 edges=3.0 dist=0.0 (1.8s)
+2026-11-16 11:24:18 confirm GCN PubMed Copy-best-of-10: plausible 152/200 raw 152/200 edits=0.0 edges=1.36 dist=0.0 (33.8s)
+2026-11-16 11:24:24 confirm GCN PubMed Copy-best-of-10-noedges: plausible 147/200 raw 150/200 edits=0.0 edges=1.0 dist=0.0 (6.3s)
+2026-11-16 11:25:33 confirm GCN PubMed constrained-attack: plausible 164/200 raw 164/200 edits=16.64 edges=1.0 dist=0.22619131490588187 (68.8s)
+2026-11-16 11:28:18 confirm GCN PubMed AGN-CF: plausible 152/200 raw 152/200 edits=0.0 edges=1.015 dist=0.0 (164.5s)
+2026-11-16 11:28:19 confirm GAT Cora B1: plausible 59/200 raw 59/200 edits=0.0 edges=1.0 dist=0.0 (0.9s)
+2026-11-16 11:28:20 confirm GAT Cora B2: plausible 80/200 raw 80/200 edits=0.0 edges=3.685 dist=0.0 (0.9s)
+2026-11-16 11:28:55 confirm GAT Cora Copy-best-of-10: plausible 99/200 raw 99/200 edits=0.0 edges=2.125 dist=0.0 (35.9s)
+2026-11-16 11:29:01 confirm GAT Cora Copy-best-of-10-noedges: plausible 86/200 raw 86/200 edits=0.0 edges=1.0 dist=0.0 (5.9s)
+2026-11-16 11:32:50 confirm GAT Cora constrained-attack: plausible 85/200 raw 85/200 edits=2.665 edges=1.0 dist=1.341817142367363 (228.6s)
+2026-11-16 11:37:00 confirm GAT Cora AGN-CF: plausible 121/200 raw 121/200 edits=1.05 edges=1.465 dist=0.317184693813324 (250.4s)
+2026-11-16 11:37:02 confirm GAT CiteSeer B1: plausible 71/200 raw 102/200 edits=0.0 edges=1.0 dist=0.0 (1.4s)
+2026-11-16 11:37:03 confirm GAT CiteSeer B2: plausible 84/200 raw 118/200 edits=0.0 edges=2.21 dist=0.0 (1.4s)
+2026-11-16 11:37:20 confirm GAT CiteSeer Copy-best-of-10: plausible 90/200 raw 128/200 edits=0.0 edges=1.47 dist=0.0 (17.2s)
+2026-11-16 11:37:27 confirm GAT CiteSeer Copy-best-of-10-noedges: plausible 83/200 raw 121/200 edits=0.0 edges=1.0 dist=0.0 (6.3s)
+2026-11-16 11:41:22 confirm GAT CiteSeer constrained-attack: plausible 114/200 raw 114/200 edits=4.235 edges=1.0 dist=1.5280291640758514 (235.6s)
+2026-11-16 11:44:45 confirm GAT CiteSeer AGN-CF: plausible 153/200 raw 153/200 edits=0.93 edges=1.3 dist=0.3278120857477188 (203.0s)
+2026-11-16 11:44:49 confirm GAT PubMed B1: plausible 101/200 raw 101/200 edits=0.0 edges=1.0 dist=0.0 (3.9s)
+2026-11-16 11:44:54 confirm GAT PubMed B2: plausible 109/200 raw 109/200 edits=0.0 edges=2.23 dist=0.0 (5.0s)
+2026-11-16 11:46:24 confirm GAT PubMed Copy-best-of-10: plausible 124/200 raw 124/200 edits=0.0 edges=1.4 dist=0.0 (90.0s)
+2026-11-16 11:46:42 confirm GAT PubMed Copy-best-of-10-noedges: plausible 111/200 raw 111/200 edits=0.0 edges=1.0 dist=0.0 (18.0s)
+2026-11-16 11:49:16 confirm GAT PubMed constrained-attack: plausible 164/200 raw 164/200 edits=15.52 edges=1.0 dist=0.211795591711998 (153.9s)
+2026-11-16 11:59:05 confirm GAT PubMed AGN-CF: plausible 124/200 raw 124/200 edits=0.0 edges=1.3 dist=0.0 (589.0s)
+2026-11-16 11:59:05 verdict CONFIRMED
